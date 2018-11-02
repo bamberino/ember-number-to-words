@@ -20,6 +20,7 @@ Depending on language the component call is different.
 | ---------- | ---------------------- | ------------------------------------------------------------- |
 | English    | `number-to-english`    | `{{number-to-english number=11}}` will return `eleven`        |
 | French     | `number-to-french`     | `{{number-to-french number=11}}` will return `onze`           |
+| German     | `number-to-german`     | `{{number-to-german number=11}}` will return `elf`            |
 | Lithuanian | `number-to-lithuanian` | `{{number-to-lithuanian number=11}}` will return `vienuolika` |
 | Spanish    | `number-to-spanish`    | `{{number-to-spanish number=11}}` will return `once`          |
 
@@ -42,6 +43,8 @@ Depending on language the component call is different.
 **French**: [@cicoub13](https://github.com/cicoub13)
 
 **Lithuanian**: [@rimvislt](https://github.com/rimvislt)
+
+**German**: [@bamberino](https://github.com/bamberino)
 
 ##Contributions
 

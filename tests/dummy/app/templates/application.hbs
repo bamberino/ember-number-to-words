@@ -11,6 +11,10 @@
   <span>{{number-to-french number=numberDefault}}</span>
 </div>
 <div class="flex-row">
+  <span class="language">German: </span>
+  <span>{{number-to-german number=numberDefault}}</span>
+</div>
+<div class="flex-row">
   <span class="language">Lithuanian: </span>
   <span>{{number-to-lithuanian number=numberDefault}}</span>
 </div>
@@ -21,7 +25,7 @@
 
 <h3>Decimal - word</h3>
 
-{{input type="number" value=numberDecimalWord}}
+{{input type="number" step="0.01" value=numberDecimalWord}}
 
 <div class="flex-row">
   <span class="language">English: </span>
@@ -30,6 +34,10 @@
 <div class="flex-row">
   <span class="language">French: </span>
   <span>{{number-to-french number=numberDecimalWord decimal="word"}}</span>
+</div>
+<div class="flex-row">
+  <span class="language">German: </span>
+  <span>{{number-to-german number=numberDecimalWord decimal="word"}}</span>
 </div>
 <div class="flex-row">
   <span class="language">Lithuanian: </span>
@@ -42,7 +50,7 @@
 
 <h3>Decimal - fraction</h3>
 
-{{input type="number" value=numberDecimalFraction}}
+{{input type="number" step="0.01" value=numberDecimalFraction}}
 
 <div class="flex-row">
   <span class="language">English: </span>
@@ -51,6 +59,10 @@
 <div class="flex-row">
   <span class="language">French: </span>
   <span>{{number-to-french number=numberDecimalFraction decimal="fraction"}}</span>
+</div>
+<div class="flex-row">
+  <span class="language">German: </span>
+  <span>{{number-to-german number=numberDecimalFraction decimal="fraction"}}</span>
 </div>
 <div class="flex-row">
   <span class="language">Lithuanian: </span>
